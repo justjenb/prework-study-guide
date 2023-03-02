@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'rubik';
+    src: url('fonts/rubik-regular-webfont.woff2') format('woff2'),
+         url('fonts/rubik-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'rubik';
+    src: url('fonts/rubik-bold-webfont.woff2') format('woff2'),
+         url('fonts/rubik-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'chunkfiveregular';
+    src: url('fonts/chunkfive-regular-webfont.woff2') format('woff2'),
+         url('fonts/chunkfive-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'chunkfive_printregular';
+    src: url('fonts/chunk_five_print-webfont.woff2') format('woff2'),
+         url('fonts/chunk_five_print-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+header,
+footer {
+    width: 100%;
+    height: 120px;
+    background-color: blue;
+    color: white;
+}
+h1,
+h2 {
+    text-align: center;
+    font-family: 'chunkfiveregular';
+    font-size: 40px;
+}
+img {
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul {
+    padding-left: 40px;
+    font-size: 20px;
+}
+li {
+    font-family: 'rubik';
+}
+p {
+    text-align: center;
+    font-size: 30px;
+}
+.card {
+    width: 80%;
+    margin: 40px auto;
+    border: 5px solid gray;
+    box-shadow: 5px 10px #888888;
+}
